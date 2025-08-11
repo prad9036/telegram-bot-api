@@ -31,6 +31,8 @@ else
     chmod +x "$BIN_DIR/telegram-bot-api"
 
     rm -f "$TMP_DEB"
+    rm -rf "$LOCAL_DIR"
+
 
     # Add ~/bin to PATH in ~/.bashrc if not already there
     if ! grep -q 'export PATH=$HOME/bin:$PATH' "$HOME/.bashrc"; then
