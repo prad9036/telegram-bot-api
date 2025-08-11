@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # URL to your .deb file on GitHub
-DEB_URL="https://github.com/prad9036/telegram-bot-api/releases/download/telegram-bot-api/telegram-bot-api.deb"
+DEB_URL="https://github.com/prad9036/telegram-bot-api/releases/download/telegram-bot-api-new/telegram-bot-api.deb"
+#https://github.com/prad9036/telegram-bot-api/releases/download/telegram-bot-api-new/telegram-bot-api.deb
 
 TMP_DEB="$(mktemp)" || { echo "Failed to create temp file"; exit 1; }
 
